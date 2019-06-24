@@ -12,9 +12,6 @@ import de.hdodenhof.circleimageview.CircleImageView
  * Created by: Arun PM
  * Creation Date: 18,June,2019
  * Description : <Add here>
- *
- * TECH INNOVATIONS TECHNOLOGIES Pvt Ltd. | An RCG Global Services Company
- * Cochin, INDIA.
  */
 
 @BindingAdapter("horizontalRecyclerViewAdapter")
