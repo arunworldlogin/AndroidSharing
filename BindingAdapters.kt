@@ -73,12 +73,3 @@ fun setFlowRecyclerViewAdapter(view: RecyclerView, adapter: Any) {
     }
 
 }
-
-@BindingAdapter("imageSource")
-fun setImage(circularImageView: CircleImageView,id: Int){
-
-    Glide.with(circularImageView.context)
-        .load(id)
-        .dontAnimate()
-        .into(circularImageView)
-}
