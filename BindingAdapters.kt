@@ -6,7 +6,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.google.android.material.internal.FlowLayout
 import com.xiaofeng.flowlayoutmanager.FlowLayoutManager
-import de.hdodenhof.circleimageview.CircleImageView
 
 /**
  * Created by: Arun PM
@@ -53,7 +52,9 @@ fun setVerticalRecyclerViewAdapter(view: RecyclerView, adapter: Any) {
 }
 
 
-
+/*
+* Using com.xiaofeng.flowlayoutmanager.FlowLayoutManager
+*/
 @BindingAdapter("flowRecyclerViewAdapter")
 fun setFlowRecyclerViewAdapter(view: RecyclerView, adapter: Any) {
 
